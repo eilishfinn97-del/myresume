@@ -1,16 +1,22 @@
-* {
-  box-sizing: border-box;
-  }
 
-body {
-margin: 0;
-padding: 40px 18px;
-font-family: Arial, Helvetica, sans-serif;
-background: #edf3f9;
-color: #34445a;
-line-height: 1.7;
+* {
+    box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+    padding: 40px 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #edf3f9;
+    color: #34445a;
+    line-height: 1.7;
+}
+
+.resume {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
 .resume-header {
     display: flex;
@@ -38,138 +44,116 @@ line-height: 1.7;
     object-fit: cover;
     object-position: center 35%;
     border: 2px solid white;
+    border-radius: 0;
     display: block;
 }
 
-min-width: 0;
-}
-
-.profile-photo {
-width: 2in;
-height: 2in;
-flex: 0 0 2in;
-object-fit: cover;
-object-position: center 35%;
-border: 2px solid white;
-border-radius: 0;
-display: block;
-}
-
 .welcome {
-color: #a9d6ff;
-font-size: 12px;
-font-weight: bold;
-letter-spacing: 2px;
+    color: #a9d6ff;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 h1 {
-margin: 10px 0;
-font-size: 32px;
-line-height: 1.25;
+    margin: 10px 0;
+    font-size: 32px;
+    line-height: 1.25;
 }
 
 .course {
-color: #dce9f7;
-font-size: 14px;
+    color: #dce9f7;
+    font-size: 14px;
 }
 
 section {
-padding: 20px 38px;
-border-bottom: 1px solid #e6edf5;
+    padding: 20px 38px;
+    border-bottom: 1px solid #e6edf5;
 }
 
 h2 {
-color: #17365d;
-font-size: 21px;
-margin: 0 0 12px;
+    color: #17365d;
+    font-size: 21px;
+    margin: 0 0 12px;
 }
 
 h2::after {
-content: "";
-display: block;
-width: 45px;
-height: 3px;
-margin-top: 6px;
-background: #65a6e7;
-border-radius: 5px;
+    content: "";
+    display: block;
+    width: 45px;
+    height: 3px;
+    margin-top: 6px;
+    background: #65a6e7;
+    border-radius: 5px;
 }
 
 h3 {
-color: #254f7d;
-margin: 0 0 5px;
-font-size: 16px;
+    color: #254f7d;
+    margin: 0 0 5px;
+    font-size: 16px;
 }
 
 p {
-margin: 8px 0;
+    margin: 8px 0;
 }
 
 .info-card {
-padding: 15px 18px;
-background: #f4f8fc;
-border-left: 4px solid #65a6e7;
-border-radius: 5px;
+    padding: 15px 18px;
+    background: #f4f8fc;
+    border-left: 4px solid #65a6e7;
+    border-radius: 5px;
 }
 
 .skills {
-display: flex;
-flex-wrap: wrap;
-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
 }
 
 .skills span {
-background: #e5f1ff;
-color: #214f80;
-padding: 7px 14px;
-border-radius: 20px;
-font-size: 13px;
-font-weight: bold;
+    background: #e5f1ff;
+    color: #214f80;
+    padding: 7px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
 }
 
 footer {
-padding: 15px;
-text-align: center;
-background: #f4f8fc;
-color: #64758b;
-font-size: 13px;
+    padding: 15px;
+    text-align: center;
+    background: #f4f8fc;
+    color: #64758b;
+    font-size: 13px;
 }
 
 @media (max-width: 550px) {
-body {
-padding: 15px 8px;
+    body {
+        padding: 15px 8px;
+    }
+
+    .resume-header {
+        padding: 20px;
+        gap: 12px;
+    }
+
+    .profile-text {
+        flex: 1;
+        min-width: 0;
+    }
+
+    .profile-photo {
+        width: 1.5in;
+        height: 1.5in;
+        flex: 0 0 1.5in;
+    }
+
+    h1 {
+        font-size: 24px;
+        overflow-wrap: anywhere;
+    }
+
+    section {
+        padding: 20px 25px;
+    }
 }
-
-```
-.resume-header {
-    padding: 20px;
-}
-
-.profile {
-    gap: 12px;
-}
-
-.profile-photo {
-    width: 1.5in;
-    height: 1.5in;
-    flex-basis: 1.5in;
-}
-
-h1 {
-    font-size: 24px;
-    overflow-wrap: anywhere;
-}
-
-section {
-    padding: 20px 25px;
-}
-```
-
-}
-
-
-
-  
-
-
-
- 
