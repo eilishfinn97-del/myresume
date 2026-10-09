@@ -11,14 +11,12 @@ body {
     color: #34445a;
     line-height: 1.7;
 }
+              
+.resume-header { 
+position: relative;
+min-height: 2.5in;
+padding: 20px;
 
-.resume {
-    max-width: 850px;
-    margin: auto;
-    background: #ffffff;
-    border-radius: 16px;
-    overflow: hidden;
-    box-shadow: 0 12px 35px rgba(24, 54, 88, 0.12);
 }
 
 .profile {
