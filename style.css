@@ -22,13 +22,12 @@ body {
 }
 
 .profile {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 25px;
-    padding: 38px;
-    background: #17365d;
-    color: #ffffff;
+   .profile-photo {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+
 }
 
 .profile-text {
