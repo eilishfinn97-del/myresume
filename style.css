@@ -14,6 +14,7 @@ line-height: 1.7;
 
 .resume-header {
     display: flex;
+    flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 20px;
@@ -24,21 +25,20 @@ line-height: 1.7;
 }
 
 .profile-text {
+    order: 1;
     flex: 0 1 1.5in;
     min-width: 0;
-    order: 1;
 }
 
 .profile-photo {
+    order: 2;
     width: 2in;
     height: 2in;
     flex: 0 0 2in;
     object-fit: cover;
     object-position: center 35%;
     border: 2px solid white;
-    border-radius: 0;
     display: block;
-    order: 2;
 }
 
 min-width: 0;
