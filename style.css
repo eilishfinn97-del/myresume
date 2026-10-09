@@ -14,18 +14,18 @@ body {
               
 .resume-header { 
 position: relative;
-min-height: 2.5in;
-padding: 20px;
+min-height: 1.5in;
+padding: 5px;
 
 }
 
 .profile {
    .profile-photo {
-width: 2in;
-height: 2in;
+width: 1in;
+height: 1in;
 object-fit: cover;
-object-position: center top;
-border: 2px solid white;
+object-position: center top left;
+border: 1px solid white;
 border-radius: 0;
 display: block;
 }
