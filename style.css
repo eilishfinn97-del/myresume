@@ -11,23 +11,36 @@ color: #34445a;
 line-height: 1.7;
 }
 
-.resume-header {
-position: relative;
-min-height: 2.5in;
-padding: 25px;
-background: #17365d;
-color: white;
-}
 
-.profile {
-display: flex;
-align-items: flex-start;
-justify-content: space-between;
-gap: 20px;
+.resume-header {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    min-height: 2.5in;
+    padding: 25px;
+    background: #17365d;
+    color: white;
 }
 
 .profile-text {
-flex: 1;
+    flex: 0 1 1.5in;
+    min-width: 0;
+    order: 1;
+}
+
+.profile-photo {
+    width: 2in;
+    height: 2in;
+    flex: 0 0 2in;
+    object-fit: cover;
+    object-position: center 35%;
+    border: 2px solid white;
+    border-radius: 0;
+    display: block;
+    order: 2;
+}
+
 min-width: 0;
 }
 
