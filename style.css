@@ -18,12 +18,14 @@ body {
     margin: 0 auto;
 }
 
+
 .resume-header {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     justify-content: flex-start;
     gap: 20px;
+    width: 405px;
     min-height: 2.5in;
     padding: 25px;
     background: #17365d;
@@ -32,7 +34,7 @@ body {
 
 .profile-text {
     order: 1;
-    flex: 0 1 1.5in;
+    flex: 1;
     min-width: 0;
 }
 
@@ -47,6 +49,7 @@ body {
     border-radius: 0;
     display: block;
 }
+    
 
 .welcome {
     color: #a9d6ff;
