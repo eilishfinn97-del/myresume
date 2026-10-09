@@ -24,13 +24,12 @@ padding: 20px;
 width: 2in;
 height: 2in;
 object-fit: cover;
-object-position: center;
+object-position: center top;
+border: 2px solid white;
 border-radius: 0;
 display: block;
-position: absolute;
-top: 20px;
-right: 20px;
 }
+
 
 .profile-text {
     flex: 1;
